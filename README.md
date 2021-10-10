@@ -22,7 +22,7 @@ git clone https://github.com/alexandreafa/installabl.git
 ```
 - Inside the path, run the installation script:
 ```bash
-./install.sh
+./run.sh
 ```
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
