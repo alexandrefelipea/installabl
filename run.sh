@@ -5,7 +5,8 @@ echo -e "Which IDE do you want to install?"
 echo -e "\\n1 - Eclipse
 2 - Spring Tool Suite
 3 - IntelliJ IDEA Community
-4 - Visual Studio Code
+4 - PyCharm Community
+5 - Visual Studio Code
 
 Choose: "
 
@@ -23,6 +24,10 @@ Choose: "
             ( exec "./intellij-idea-community/install.sh" )
             ;;
         4)
+            echo -e "\\n3 - Downloading PyCharm Community\\n"
+            ( exec "./pycharm-community/install.sh" )
+            ;;
+        5)
             echo -e "\\n3 - Downloading Visual Studio Code\\n"
             ( exec "./vs-code/install.sh" )
             ;;
