@@ -7,6 +7,7 @@ echo -e "\\n1 - Eclipse
 3 - IntelliJ IDEA Community
 4 - PyCharm Community
 5 - Visual Studio Code
+6 - IntelliJ IDEA Ultimate
 
 Choose: "
 
@@ -30,6 +31,10 @@ Choose: "
         5)
             echo -e "\\n3 - Downloading Visual Studio Code\\n"
             ( exec "./vs-code/install.sh" )
+            ;;
+        6)
+            echo -e "\\n3 - Downloading IJ IDEA Ultimate\\n"
+            ( exec "./intellij-idea-ultimate/install.sh" )
             ;;
 
     esac
