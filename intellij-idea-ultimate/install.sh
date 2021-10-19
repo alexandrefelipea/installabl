@@ -18,6 +18,7 @@ NoDisplay=false
 Categories=Development;IDE;
 Name[en]=IntelliJ IDEA Ultimate
 Name[en_US]=IntelliJ IDEA Ultimate
+StartupWMClass=jetbrains-idea
 EOT
 
 sudo desktop-file-install /tmp/Intellij-desktop-file/intellij-idea-ultimate.desktop
