@@ -1,4 +1,4 @@
 #!/bin/bash
 
-sudo rm /usr/share/applications/pycharm.desktop
-sudo rm -rf /opt/pycharm-community-2021.2.2
+sudo rm /usr/share/applications/postman.desktop
+sudo rm -rf /opt/Postman

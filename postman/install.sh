@@ -4,7 +4,7 @@ cd /tmp && wget -O postman.tar.gz https://dl.pstmn.io/download/latest/linux64
 
 cd /opt && sudo tar -xvzf /tmp/postman.tar.gz
 
-mkdir /tmp/postman && cd /tmp/postman-desktop-file
+mkdir /tmp/postman && cd /tmp/postman
 
 sudo cat >'postman.desktop' <<EOT 
 [Desktop Entry]
