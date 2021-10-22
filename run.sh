@@ -8,6 +8,7 @@ echo -e "\\n1 - Eclipse
 4 - PyCharm Community
 5 - Visual Studio Code
 6 - IntelliJ IDEA Ultimate
+7 - Postman
 
 Choose: "
 
@@ -17,24 +18,22 @@ Choose: "
             ( exec "./eclipse/install.sh" )
             ;;
         2)
-            echo -e "\\n2 - Downloading Spring Tool Suite\\n"
             ( exec "./spring-tool-suite/install.sh" )
             ;;
         3)
-            echo -e "\\n3 - Downloading IntelliJ IDEA Community\\n"
             ( exec "./intellij-idea-community/install.sh" )
             ;;
         4)
-            echo -e "\\n3 - Downloading PyCharm Community\\n"
             ( exec "./pycharm-community/install.sh" )
             ;;
         5)
-            echo -e "\\n3 - Downloading Visual Studio Code\\n"
             ( exec "./vs-code/install.sh" )
             ;;
         6)
-            echo -e "\\n3 - Downloading IJ IDEA Ultimate\\n"
             ( exec "./intellij-idea-ultimate/install.sh" )
+            ;;
+        7)
+            ( exec "./postman/install.sh" )
             ;;
 
     esac
