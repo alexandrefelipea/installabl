@@ -4,7 +4,9 @@ cd /tmp && wget -O postman.tar.gz https://dl.pstmn.io/download/latest/linux64
 
 cd /opt && sudo tar -xvzf /tmp/postman.tar.gz
 
-mkdir /tmp/postman && cd /tmp/postman
+mkdir /tmp/postman
+
+cd /tmp/postman
 
 sudo cat >'postman.desktop' <<EOT 
 [Desktop Entry]
@@ -20,6 +22,6 @@ Name[en]=Postman
 Name[en_US]=Postman
 EOT
 
-sudo desktop-file-install /tmp/postman-desktop-file/postman.desktop
+sudo desktop-file-install /tmp/postman/postman.desktop
 
 clear && echo -e "Postman installed!"
