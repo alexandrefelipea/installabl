@@ -9,6 +9,7 @@ echo -e "\\n1 - Eclipse
 5 - Visual Studio Code
 6 - IntelliJ IDEA Ultimate
 7 - Postman
+8 - Rider
 
 Choose: "
 
@@ -34,6 +35,9 @@ Choose: "
             ;;
         7)
             ( exec "./postman/install.sh" )
+            ;;
+        8)
+            ( exec "./rider/install.sh" )
             ;;
 
     esac
