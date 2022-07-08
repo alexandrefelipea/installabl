@@ -1,9 +1,9 @@
 #!/bin/bash
 cd /tmp/
 
-wget -c https://eclipse.mirror.rafal.ca/technology/epp/downloads/release/2022-03/R/eclipse-java-2022-03-R-linux-gtk-x86_64.tar.gz
+wget -c https://eclipse.c3sl.ufpr.br/technology/epp/downloads/release/2022-06/R/eclipse-java-2022-06-R-linux-gtk-x86_64.tar.gz
 
-cd /opt && sudo tar -xvzf /tmp/eclipse-java-2022-03-R-linux-gtk-x86_64.tar.gz
+cd /opt && sudo tar -xvzf /tmp/eclipse-java-2022-06-R-linux-gtk-x86_64.tar.gz
 
 mkdir /tmp/EclipseFile && cd /tmp/EclipseFile
 
@@ -14,7 +14,7 @@ Type=Application
 Exec=/opt/eclipse/eclipse
 Terminal=false
 Icon=/opt/eclipse/icon.xpm
-Comment=Integrated Development Environment
+Comment=The leading open platform for professional developers
 NoDisplay=false
 Categories=Development;IDE;
 Name[en]=Eclipse
