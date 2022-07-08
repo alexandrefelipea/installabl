@@ -1,8 +1,8 @@
 #!/bin/bash
 
-wget -c https://download.springsource.com/release/STS4/4.13.0.RELEASE/dist/e4.22/spring-tool-suite-4-4.13.0.RELEASE-e4.22.0-linux.gtk.x86_64.tar.gz -P /tmp/        
+wget -c https://download.springsource.com/release/STS4/4.15.1.RELEASE/dist/e4.24/spring-tool-suite-4-4.15.1.RELEASE-e4.24.0-linux.gtk.x86_64.tar.gz -P /tmp/        
 
-cd /opt && sudo tar -xvzf /tmp/spring-tool-suite-4-4.13.0.RELEASE-e4.22.0-linux.gtk.x86_64.tar.gz
+cd /opt && sudo tar -xvzf /tmp/spring-tool-suite-4-4.15.1.RELEASE-e4.24.0-linux.gtk.x86_64.tar.gz
 
 mkdir /tmp/STSFile && cd /tmp/STSFile/
 
@@ -10,9 +10,9 @@ sudo cat >'spring-tool-suite.desktop' <<EOT
 [Desktop Entry]
 Name=Spring Tool Suite
 Type=Application
-Exec=/opt/sts-4.13.0.RELEASE/SpringToolSuite4
+Exec=/opt/sts-4.15.1.RELEASE/SpringToolSuite4
 Terminal=false
-Icon=/opt/sts-4.13.0.RELEASE/icon.xpm
+Icon=/opt/sts-4.15.1.RELEASE/icon.xpm
 Comment=The all-new Spring Tool Suite
 NoDisplay=false
 Categories=Development;IDE;
