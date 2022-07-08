@@ -1,8 +1,8 @@
 #!/bin/bash
 
-wget -c https://download-cdn.jetbrains.com/python/pycharm-community-2021.2.2.tar.gz -P /tmp/
+wget -c https://download-cdn.jetbrains.com/python/pycharm-community-2022.1.3.tar.gz -P /tmp/
 
-cd /opt && sudo tar -xvzf /tmp/pycharm-community-2021.2.2.tar.gz
+cd /opt && sudo tar -xvzf /tmp/pycharm-community-2022.1.3.tar.gz
 
 mkdir /tmp/pycharm-desktop-file && cd /tmp/pycharm-desktop-file
 
@@ -10,9 +10,9 @@ sudo cat >'pycharm.desktop' <<EOT
 [Desktop Entry]
 Name=PyCharm Community
 Type=Application
-Exec=/opt/pycharm-community-2021.2.2/bin/pycharm.sh
+Exec=/opt/pycharm-community-2022.1.3/bin/pycharm.sh
 Terminal=false
-Icon=/opt/pycharm-community-2021.2.2/bin/pycharm.svg
+Icon=/opt/pycharm-community-2022.1.3/bin/pycharm.svg
 Comment=The Python IDE for Professional Developers
 NoDisplay=false
 Categories=Development;IDE;
