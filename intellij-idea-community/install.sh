@@ -1,8 +1,8 @@
 #!/bin/bash
 
-wget -c https://download-cdn.jetbrains.com/idea/ideaIC-2021.3.tar.gz -P /tmp/
+wget -c https://download-cdn.jetbrains.com/idea/ideaIC-2022.1.3.tar.gz -P /tmp/
 
-cd /opt && sudo tar -xvzf /tmp/ideaIC-2021.3.tar.gz
+cd /opt && sudo tar -xvzf /tmp/ideaIC-2022.1.3.tar.gz
 
 mkdir /tmp/Intellij-desktop-file && cd /tmp/Intellij-desktop-file
 
@@ -10,9 +10,9 @@ sudo cat >'intellij-idea-community.desktop' <<EOT
 [Desktop Entry]
 Name=IntelliJ IDEA Community
 Type=Application
-Exec=/opt/idea-IC-213.5744.223/bin/idea.sh
+Exec=/opt/idea-IC-221.5921.22/bin/idea.sh
 Terminal=false
-Icon=/opt/idea-IC-213.5744.223/bin/idea.svg
+Icon=/opt/idea-IC-221.5921.22/bin/idea.svg
 Comment=Enjoy Productive Java
 NoDisplay=false
 Categories=Development;IDE;
