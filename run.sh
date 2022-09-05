@@ -10,6 +10,7 @@ echo -e "\\n1 - Eclipse
 6 - IntelliJ IDEA Ultimate
 7 - Postman
 8 - Rider
+9 - Android Studio
 
 Choose: "
 
@@ -38,6 +39,9 @@ Choose: "
             ;;
         8)
             ( exec "./rider/install.sh" )
+            ;;
+        9)
+            ( exec "./android-studio/install.sh")
             ;;
 
     esac
